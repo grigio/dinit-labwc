@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/wireplumber
+depends-on      = pipewire
+restart         = yes
+smooth-recovery = yes

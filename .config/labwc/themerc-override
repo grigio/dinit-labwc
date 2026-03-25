@@ -1,0 +1,3 @@
+border.width: 3
+window.active.border.color: #aaaaaa
+window.inactive.border.color: #888888
