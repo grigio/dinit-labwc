@@ -1,4 +1,0 @@
-type            = process
-command         = /usr/sbin/pipewire
-restart         = yes
-smooth-recovery = yes

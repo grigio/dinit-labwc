@@ -1,0 +1,23 @@
+A custom session is just a desktop entry file, like for X11 and Wayland
+sessions. For example:
+
+[Desktop Entry]
+Name=Fish shell
+Exec=/usr/bin/fish
+DesktopNames=null
+Terminal=true
+
+The DesktopNames value is optional and sets the XDG_SESSION_DESKTOP and
+XDG_CURRENT_DESKTOP environment variables. If equal to null or if not present,
+XDG_SESSION_DESKTOP and XDG_CURRENT_DESKTOP will not be set. Otherwise, the
+syntax is the same as described in the Freedesktop Desktop Entry Specification.
+
+The Terminal value specifies if standard output and standard error should be
+redirected to the session log file found in Ly's configuration file. If set to
+true, Ly will consider the program is going to run in a TTY, and thus will not
+redirect standard output & error. It is optional and defaults to false.
+
+Finally, do note that, if the Terminal value is set to true, the
+XDG_SESSION_TYPE environment variable will be set to "tty". Otherwise, it will
+be set to "unspecified" (without quotes), which is behavior that at least
+systemd recognizes (see pam_systemd's man page).

@@ -1,0 +1,4 @@
+type = process
+command = /bin/sh -c "while [ ! -S /run/user/1000/wayland-0 ]; do sleep 0.1; done; exec /usr/sbin/qs -c noctalia-shell"
+env-file = /home/user/.config/dinit.d/environment
+log-type = buffer

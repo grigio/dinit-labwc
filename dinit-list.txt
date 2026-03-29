@@ -1,0 +1,13 @@
+[user@dinit.d]$ dinitctl list
+[[ ]<<   ] boot
+[{+}     ] system
+[{+}     ] dbus (pid: 670)
+[{+}     ] voxtype (pid: 694)
+[{+}     ] pipewire-pulse (pid: 696)
+[{+}     ] pipewire (pid: 693)
+[{+}     ] wireplumber (pid: 695)
+[     {-}] wlr-randr (exit status: 0)
+[{+}     ] quickshell (pid: 671)
+[[+]     ] login.target
+[{+}     ] graphical.monitor (pid: 672)
+[{ }<<   ] graphical.target
