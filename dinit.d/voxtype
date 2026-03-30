@@ -1,4 +1,0 @@
-type = process
-command = /usr/sbin/voxtype
-depends-on = dbus
-log-type = buffer

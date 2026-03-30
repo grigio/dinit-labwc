@@ -1,0 +1,11 @@
+[Unit]
+Description=Noctalia Shell (QuickShell)
+After=labwc-session.target
+
+[Service]
+ExecStart=/usr/bin/qs -c noctalia-shell
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=labwc-session.target

@@ -1,0 +1,11 @@
+[Unit]
+Description=Start Labwc Session
+After=default.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl --user start labwc-session.target
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target

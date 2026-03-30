@@ -18,6 +18,7 @@ This configuration provides a beautiful, lightweight Wayland desktop environment
 NB: `/home/user` is hardcoded probably you should replace it with your user path.
 
 NB2: `wlr-randr` is one shot, it doesn't need to stay active in the background. it is useful to scale the display  resolution.
+MB3: systemd user session added mainly for reference
 
 ## Quick Start
 

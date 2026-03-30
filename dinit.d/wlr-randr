@@ -1,6 +1,0 @@
-type = process
-command = /bin/sh -c "while [ ! -S /run/user/1000/wayland-0 ]; do sleep 0.1; done; exec /usr/sbin/wlr-randr --output eDP-1 --scale 1.25"
-depends-on = quickshell
-env-file = /home/user/.config/dinit.d/environment
-restart = false
-log-type = buffer

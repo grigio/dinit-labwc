@@ -1,0 +1,11 @@
+[Unit]
+Description=Kanshi - Display configuration daemon
+After=labwc-session.target
+
+[Service]
+ExecStart=/usr/bin/kanshi
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=labwc-session.target
