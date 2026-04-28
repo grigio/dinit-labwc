@@ -1,6 +1,5 @@
 type = process
-command = /usr/sbin/voxtype daemon
+command = /usr/bin/gnome-keyring-daemon --foreground --components=secrets,ssh,pkcs11
 depends-on = dbus
-waits-for = wayland-ready
 env-file = /home/user/.config/dinit.d/environment
 log-type = buffer

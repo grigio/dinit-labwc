@@ -1,10 +1,21 @@
+# Note: XDG_CURRENT_DESKTOP differs (labwc uses "wlroots" for portal, dinit uses "labwc" for apps)
+HOME=/home/user
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin
 XDG_CURRENT_DESKTOP=labwc
-XDG_SESSION_TYPE=wayland
+#XDG_SESSION_TYPE=wayland
 XDG_SESSION_DESKTOP=labwc
 XDG_RUNTIME_DIR=/run/user/1000
 XDG_DATA_DIRS=/home/user/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
-XDG_CONFIG_HOME=/home/user/.config
+#XDG_CONFIG_HOME=/home/user/.config
 WAYLAND_DISPLAY=wayland-0
 QT_QPA_PLATFORM=wayland
-QT_QPA_PLATFORMTHEME=qt6ct
-DISPLAY=:0
+#QT_QPA_PLATFORMTHEME=qt6ct
+#DISPLAY=:0
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+#MOZ_ENABLE_WAYLAND=1
+XCURSOR_THEME=Adwaita
+#XCURSOR_SIZE=32
+#XKB_DEFAULT_LAYOUT=en
+
+#WLR_NO_HARDWARE_CURSORS=1

@@ -1,0 +1,4 @@
+type = scripted
+command = /home/user/.config/dinit.d/wayland-ready.sh
+log-type = buffer
+restart = false

@@ -1,4 +1,8 @@
 type = process
-command = /bin/sh -c "while [ ! -S /run/user/1000/wayland-0 ]; do sleep 0.1; done; exec /usr/sbin/qs -c noctalia-shell"
+command = /usr/bin/quickshell -c noctalia-shell
+waits-for = wayland-ready
 env-file = /home/user/.config/dinit.d/environment
+working-dir = /home/user
 log-type = buffer
+smooth-recovery = true
+restart = on-failure
