@@ -1,6 +1,6 @@
 # Note: XDG_CURRENT_DESKTOP differs (labwc uses "wlroots" for portal, dinit uses "labwc" for apps)
 HOME=/home/user
-PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin
+PATH=/home/user/.opencode/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin
 XDG_CURRENT_DESKTOP=labwc
 #XDG_SESSION_TYPE=wayland
 XDG_SESSION_DESKTOP=labwc

@@ -1,5 +1,5 @@
 type = process
-command = /usr/bin/quickshell -c noctalia-shell
+command = /usr/bin/noctalia
 waits-for = wayland-ready
 env-file = /home/user/.config/dinit.d/environment
 working-dir = /home/user

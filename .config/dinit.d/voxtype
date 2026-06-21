@@ -1,6 +1,0 @@
-type = process
-command = /usr/sbin/voxtype daemon
-depends-on = dbus
-waits-for = wayland-ready
-env-file = /home/user/.config/dinit.d/environment
-log-type = buffer

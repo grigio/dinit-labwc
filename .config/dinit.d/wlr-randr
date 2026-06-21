@@ -1,4 +1,4 @@
-type = process
+type = scripted
 command = /usr/bin/wlr-randr --output eDP-1 --scale 1.25
 waits-for = wayland-ready
 log-type = buffer
