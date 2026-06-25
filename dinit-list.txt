@@ -1,4 +1,4 @@
-[user@dinit.d]$ dinitctl list
+[user@dinit.d]$ dinitctl --user list
 [[ ]<<   ] boot
 [{+}     ] system
 [{+}     ] dbus (pid: 670)
@@ -7,7 +7,8 @@
 [{+}     ] pipewire (pid: 693)
 [{+}     ] wireplumber (pid: 695)
 [     {-}] wlr-randr (exit status: 0)
-[{+}     ] quickshell (pid: 671)
+[{+}     ] noctalia (pid: 671)
+[{+}     ] wayland-ready (exit status: 0)
+[{+}     ] gnome-keyring (pid: 672)
 [[+]     ] login.target
-[{+}     ] graphical.monitor (pid: 672)
 [{ }<<   ] graphical.target

@@ -219,7 +219,7 @@ Noctalia v5 uses Unix socket IPC at `$XDG_RUNTIME_DIR/noctalia-$WAYLAND_DISPLAY.
 
 ## Screenshot
 ```bash
-grim -g "$(slurp)" ~/Pictures/screenshot-$(Y%m%d-%H%M%S).png
+grim -g "$(slurp)" ~/Pictures/screenshot-$(date +%Y%m%d-%H%M%S).png
 ```
 
 Noctalia v5 also has built-in screenshot commands: `noctalia msg screenshot-region` and `noctalia msg screenshot-fullscreen`.
